@@ -23,6 +23,15 @@ Firefox
 IDE: Intellij/Eclipse
 Plugins: Cucumber for Java, Gherkin
 
+
+-- Automation framework
+
+Page object model -- created separate pages and included actions and elements inside them.
+Cucumber -- Used for writing scenarios in Feature file in Behaviour Driven Development style.
+
+compiling the project:
+mvn clean install
+
 How to Run Scripts:
 
 Navigate to 
@@ -42,5 +51,7 @@ mvn test -Dcucumber.options="--tags '@login'"
 
 
 We can update the browser in which tests should be run in the SelectDriver class.
+
+
 Reports would be generated under :
 /target/cucumber-html-report
