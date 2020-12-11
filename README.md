@@ -13,11 +13,12 @@ Selenium
 
 
 Drivers (Exist in the project)
-Chrome Driver for Mac
+Chrome Driver for Mac,
 Gecko Driver for Mac
 
 Browsers:
-Chrome
+Chrome, 
+Firefox
 
 IDE: Intellij/Eclipse
 Plugins: Cucumber for Java, Gherkin
@@ -30,7 +31,7 @@ Right click on it and click RunUITests option
 
 or
 
-Right click on any scenario in Feature file and execute teh script
+Right click on any scenario in Feature file and execute the script
 
 or
 
@@ -38,5 +39,8 @@ we can execute the scripts using command line
 
 mvn test -Dcucumber.options="--tags '@login'"
 
+
+
+We can update the browser in which tests should be run in the SelectDriver class.
 Reports would be generated under :
 /target/cucumber-html-report
