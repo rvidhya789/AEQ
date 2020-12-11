@@ -28,5 +28,15 @@ Navigate to
 Src/test/java/com/runner/RunUITests class
 Right click on it and click RunUITests option
 
+or
+
+Right click on any scenario in Feature file and execute teh script
+
+or
+
+we can execute the scripts using command line
+
+mvn test -Dcucumber.options="--tags '@login'"
+
 Reports would be generated under :
 /target/cucumber-html-report
